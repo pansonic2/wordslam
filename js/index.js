@@ -6,7 +6,7 @@ $("#roll").on("click", showstuff)
     function randomFrom(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
-    allTiles = ['planet', 'SpongeBob Squarepants', 'chainsaw', 'mayor', 'ballet', 'zipper', 'fog', 'Neil Armstrong', 'chicken', 'saliva', 'train station', 'tea', 'cap', 'river', 'candy', 'snowball', 'Terminator', 'mole', 'breakfast', 'Hollywood', 'GPS unit', 'Dora the Explorer', 'babysitter', 'banana', 'color', 'Albert Einstein', 'heavy metal', 'Olympic Games', 'pirate', 'school', 'elephant' ];
+    allTiles = ['It is based on the premise that...', 'as something does something...', 'however', 'Also, one must look at...', 'Finally...', 'It does not necessarily mean that...', 'The first issue to be addressed is...', 'I also feel that...', '... This is not the case.', 'While... may...' ];
     resultingTile = randomFrom(allTiles);
     console.log(resultingTile);
       
