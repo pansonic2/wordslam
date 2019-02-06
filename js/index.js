@@ -12,15 +12,7 @@ $("#roll").on("click", showstuff)
       
     $("#result").text(resultingTile);
   }
-  var x = document.getElementById("myAudio"); 
-
-  function playAudio() { 
-    x.play(); 
-  } 
-  
-  function pauseAudio() { 
-    x.pause(); 
-  } 
+ 
 
 
 });
