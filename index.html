@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" >
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    
+      
+    
+        <script  src="js/index.js"></script>
+    
+
 <head>
   <meta charset="UTF-8">
   <title>Word Slam</title>
@@ -21,24 +29,16 @@
 <div id="help_words">
 
 </div>
-<audio id="myAudio">Play audio file
-  <source src="ColdTemp1.mp3" type="audio/mpeg">
-</audio>
 
-<p>Click the buttons to play or pause the audio.</p>
-
-<button onclick="playAudio()" type="button">Play Audio</button>
-<button onclick="pauseAudio()" type="button">Pause Audio</button>
-
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-
+<audio id="myAudio">
+    <source src="ColdTemp1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
   
-
-    <script  src="js/index.js"></script>
-
-
+  <p>Click the buttons to play or pause the audio.</p>
+  
+  <button onclick="playAudio()" type="button">Play Audio</button>
+  <button onclick="pauseAudio()" type="button">Pause Audio</button> 
 
 
 </body>
