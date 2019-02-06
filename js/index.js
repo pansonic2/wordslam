@@ -11,4 +11,17 @@ $("#roll").on("click", showstuff)
     console.log(resultingTile);
       
     $("#result").text(resultingTile);
-  }});
+  }
+var playAudioFile = document.getElementById("myAudio");
+
+function playAudio() {
+  playAudioFile.play();
+}
+
+function pauseAudio() {
+  playAudioFile();
+}
+
+$("#myAudio").on("click", playAudio);
+
+});
